@@ -1,6 +1,7 @@
 ---
 title: My awesome page 3
 pageClass: custom-page-class
+sidebar: auto
 ---
 
 # Page 3
