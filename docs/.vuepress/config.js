@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress',
+  title: 'Vuepress Demo',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -45,6 +45,10 @@ module.exports = {
       {
         text: 'Page 2',
         link: '/page-2/'
+      },
+      {
+        text: 'Page 3',
+        link: '/page-3/'
       },
       {
         text: 'Instagram',

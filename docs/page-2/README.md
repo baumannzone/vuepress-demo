@@ -1,5 +1,8 @@
 ---
 sidebar: auto
+tags:
+  - rambitoJS
+  - markdown
 ---
 
 # Page 2
