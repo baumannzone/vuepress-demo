@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: La demo de Vuepress
-actionText: Empezar rápido →
+tagline: Docs the right way
+actionText: Quick Start →
 actionLink: /page-1/
 features:
   - title: Feature 1 Title

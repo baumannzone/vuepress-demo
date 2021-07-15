@@ -4,11 +4,11 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Vuepress',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: 'Docs the right way',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -20,6 +20,10 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
+
+  markdown: {
+    lineNumbers: true
+  },
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
@@ -35,22 +39,22 @@ module.exports = {
     lastUpdated: true,
     nav: [
       {
-        text: 'Página 1',
+        text: 'Page 1',
         link: '/page-1/',
       },
       {
-        text: 'Página 2',
+        text: 'Page 2',
         link: '/page-2/'
       },
       {
-        text: 'Repo en GitHub',
-        link: 'https://github.com/baumannzone/vuepress-demo'
+        text: 'Instagram',
+        link: 'https://instagram.com/baumannzone'
       }
     ],
     sidebar: {
       '/page-1/': [
         {
-          title: 'Página 1',
+          title: 'Page 1',
           collapsable: false,
           children: [
             '',
@@ -58,7 +62,7 @@ module.exports = {
           ]
         }
       ],
-    }
+    },
   },
 
   /**
