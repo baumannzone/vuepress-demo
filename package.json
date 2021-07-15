@@ -1,0 +1,14 @@
+{
+  "name": "vuepress-demo",
+  "version": "0.0.1",
+  "description": "La demo de las demos",
+  "repository": "/vuepress-demo",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
