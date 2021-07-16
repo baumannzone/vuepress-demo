@@ -63,6 +63,7 @@ module.exports = {
           children: [
             '',
             'using-vue',
+            'sub-page',
           ]
         }
       ],
