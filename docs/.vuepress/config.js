@@ -1,6 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
+  base: '/vuepress-demo/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -35,6 +36,10 @@ module.exports = {
     editLinks: true,
     docsDir: 'docs',
     docsBranch: 'main',
+    docsRepo: 'https://github.com/baumannzone/vuepress-demo',
+    editLinkText: 'Help us improve this page!',
+    lastUpdated: description,
+
     editLinkText: '',
     lastUpdated: true,
     nav: [
