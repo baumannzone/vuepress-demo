@@ -17,6 +17,8 @@ npm run build
 
 ## 📗
 
+Demo: https://baumannzone.github.io/vuepress-demo/
+
 - Pages
 - Config
   - Navbar
